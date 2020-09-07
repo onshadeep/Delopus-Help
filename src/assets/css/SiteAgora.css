@@ -1,0 +1,112 @@
+/* -------------------------------------------------------------------------------------- */
+
+.A42help-bg, .A42contact {
+  background-color: #161625;
+}
+
+.A42button {
+  display: inline-block;
+}
+
+.A42border {
+  box-shadow: -1px 1px whitesmoke;
+}
+
+.A42helpborder {
+  border-left: 1px solid #161625;
+  /* border-right: 1px solid #41465c; */
+}
+
+.A42font-color, .A42contact-text {
+  color: #f3990f;
+}
+
+.Helpfont-color {
+  color: #161625;
+}
+
+.A42help-search {
+  height: 47px;
+  width: 100%;
+}
+
+.A42dftag {
+  text-align: center;
+}
+
+.A42shadow {
+  box-shadow: -2px -2px 2px 2px black;
+}
+
+.A42card-hover:hover {
+  box-shadow: 0px 2px 1px #242541;
+}
+
+.mt-8 {
+  margin-top: 8vmin;
+}
+
+.mb-8 {
+  margin-bottom: 8vmin;
+}
+
+.Chosen-select {
+  width: 150px;
+}
+
+.user-avatar-post {
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.A42Date {
+  width: 100%;
+}
+
+.A42editnav {
+  border: 1px solid lightgrey;
+}
+
+.A42editborder {
+  border: 1px solid lightgrey;
+}
+
+.A42editborder:hover {
+  box-shadow: -2px -1px 2px 2px lightgrey;
+}
+
+.A42text-justify {
+  text-align: justify;
+}
+
+.mt-8 {
+  margin-top: 8vmin;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+.nav-bg {
+  background-color: #161625;
+}
+.App-logo {
+  height: 4vmin;
+  margin-left: 100px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 3vmin;
+  width: 100%;
+  background-color: #161625;
+  color: #dcdcdc;
+}
+.user-avatar {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
