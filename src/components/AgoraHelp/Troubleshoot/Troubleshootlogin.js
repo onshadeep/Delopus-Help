@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../../assets/css/SiteAgora.css";
+
 export default function Troubles() {
   return (
     <div>
@@ -19,7 +19,7 @@ export default function Troubles() {
               </p>
               <p>
                 Learn more about what you can do if{" "}
-                <a href="#">you don't know your username.</a>
+                <a href="#T1">you don't know your username.</a>
               </p>
               <ul>
                 <li>
@@ -65,7 +65,7 @@ export default function Troubles() {
 
                 <p>
                   Learn more about what you can do if{" "}
-                  <a href="#">you think your account was hacked.</a>
+                  <a href="#T1">you think your account was hacked.</a>
                 </p>
                 <li>
                   <p>
@@ -111,7 +111,7 @@ export default function Troubles() {
                 there.
               </p>
               <p>
-                Still having problems, Please <a href="#">contact us</a> to
+                Still having problems, Please <a href="#T1">contact us</a> to
                 register this issue, will help you.
               </p>
             </li>
@@ -136,7 +136,7 @@ export default function Troubles() {
                     be there.
                   </p>
                   <p>
-                    Still having problems, Please <a href="#">contact us</a> to
+                    Still having problems, Please <a href="#T1">contact us</a> to
                     register this issue, will help you.
                   </p>
                 </li>
@@ -162,7 +162,9 @@ export default function Troubles() {
                       You can’t create your username with more than 20
                       characters.
                     </li>
-                        
+                    <li>
+                    You can't create your username using some symbole <b>{'(~/!/@/#/$/%/^/&amp;/*/(/)/{/}/[/]/|///=/+ etc.)'}</b> except symbols <b>{'(-/_)'}</b>.
+                    </li> 
                     <li>
                       You can’t create your username using a blank space
                       example:- Test S or Test 4.
@@ -190,7 +192,7 @@ export default function Troubles() {
                     his account.
                   </p>
                   <p>
-                    Still having problems, Please <a href="#">contact us</a> to
+                    Still having problems, Please <a href="#T1">contact us</a> to
                     register this issue, will help you.
                   </p>
                 </li>

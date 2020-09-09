@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../../assets/css/SiteAgora.css";
 
 export default function Manages() {
   return (
@@ -50,7 +49,7 @@ export default function Manages() {
               </ol>
             </li>
             <div className="mg">
-              <a href="#">
+              <a href="#T1">
                 See Rules and Regulations to save others projects/posts
               </a>
             </div>
@@ -67,7 +66,7 @@ export default function Manages() {
               </ol>
             </li>
             <div className="mg">
-              <a href="#">
+              <a href="#T2">
                 See Rules and Regulations to report others projects/posts
               </a>
             </div>
@@ -131,7 +130,7 @@ export default function Manages() {
                 violations, or harm prevention efforts. Learn more about this in
                 our{" "}
                 <span>
-                  <a href="#">Data Policy.</a>
+                  <a href="#T3">Data Policy.</a>
                 </span>
               </p>
             </li>

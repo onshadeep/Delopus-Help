@@ -5,7 +5,10 @@ import { Container, Row, Col } from "react-bootstrap";
 // import HelpEditProfile from "./EditProfile/HelpEditProfile";
 import HelpNeedMore from "./NeedHelp/HelpNeedMore";
 
-import TopQueryHelp from "./TopQueryHelp";
+// import TopQueryHelp from "./TopQueryHelp";
+import Manages from "./ManageAccount/ManageAcc";
+import Troubles from "./Troubleshoot/Troubleshootlogin";
+import Safety from "./Privacy/PrivacySafety";
 
 class HelpLanding extends Component {
   render() {
@@ -32,7 +35,10 @@ class HelpLanding extends Component {
         {/* <HelpAccount/> */}
         {/* <HelpPassword/> */}
         {/* <HelpEditProfile/> */}
-        <HelpNeedMore/>
+        <Manages/>
+        {/* <Troubles/> */}
+        {/* <Safety/> */}
+        {/* <HelpNeedMore/> */}
       </div>
     );
   }
